@@ -38,5 +38,5 @@ prep(missing_recipe) %>%
 
 train <- train %>% select(-id)
 rmse_vec(train[is.na(missing)], imputed[is.na(missing)])
-imputed[is.na(missing)]
+
 
